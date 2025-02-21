@@ -6,6 +6,7 @@
 
 body {
   min-height: 100svh;
+  background-color: rgb(255, 149, 44);
 }
 
 img {
@@ -38,6 +39,11 @@ h2 {
 }
 
 h1 {
+  font-family: "Oswald", serif;
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
 
@@ -45,6 +51,18 @@ h1 {
   font-family: "Bangers", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.oswald-h1 {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-cards {
@@ -56,11 +74,12 @@ h1 {
 }
 
 .card-container {
-  border: solid 1px black;
-  background-color: linen;
+  border: solid 1px rgb(255, 186, 117);
+  background-color: rgb(255, 199, 143);
   color: navy;
   display: flex;
-  max-width: 500px;
+  max-width: 490px;
+  max-height: auto;
   border-radius: 15px;
 }
 
